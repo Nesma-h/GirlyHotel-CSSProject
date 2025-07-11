@@ -110,7 +110,7 @@
         display: flex;
         gap: 20px;
         justify-content: space-between;
-        padding: 20px 70px 0;
+        padding: 20px 2% 0;
     }
 
     nav>div:nth-of-type(1) {
@@ -982,6 +982,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+
     }
 
     .about>div:nth-of-type(1) div:nth-of-type(1) span {
@@ -1301,7 +1302,7 @@
         }
         .mn div:hover .drop ul{
             top:100%;
-            left: 50%;
+            right: 50%;
             visibility: visible;
             opacity: 1;
             border: solid 3px var(--min-color);
@@ -1417,5 +1418,18 @@
     .head>div:nth-of-type(1) p{
         font-size: 17px;
     }
+    nav{
+        padding: 20px;
+    }
+     .about>div:nth-of-type(1){
+        justify-content: center;
+        align-items: center;
+     }
+     .about>div:nth-of-type(1) div:nth-of-type(1) span{
+        font-size: 40px;
+     }
+      .about>div:nth-of-type(1) div:nth-of-type(1) p{
+        font-size: 14px;
+      }
     }
     
