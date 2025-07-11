@@ -1302,7 +1302,7 @@
         }
         .mn div:hover .drop ul{
             top:100%;
-            right: 50%;
+            right: 0;
             visibility: visible;
             opacity: 1;
             border: solid 3px var(--min-color);
@@ -1373,6 +1373,7 @@
         }
     }
     @media (max-width:500px){
+       
         .head>div:nth-of-type(1) p {
             padding: 0;
         }
