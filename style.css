@@ -1411,5 +1411,11 @@
         align-items: center;
         gap: 35px;
     }
+    .head>div:nth-of-type(1) h1 {
+        font-size: 45px;
+    }
+    .head>div:nth-of-type(1) p{
+        font-size: 17px;
+    }
     }
     
